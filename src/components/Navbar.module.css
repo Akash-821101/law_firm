@@ -1,0 +1,32 @@
+.navbar {
+    width: 100%;
+    background-color: var(--color-black);
+    padding: 53px 153px 53px 153px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.navbarlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbarlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+button {
+    background-color: var(--color-black);
+    padding: 10px 20px;
+    color: var(--color-white);
+    border: 1px solid white;
+}
