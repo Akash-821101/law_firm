@@ -1,0 +1,30 @@
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 100px 153px 100px 153px;
+    align-items: center;
+}
+
+.cardContent {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.businessCard {
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+    height: 342px;
+
+}
+
+.businessCard p {
+    position: absolute;
+    bottom: 10px;
+    z-index: 1;
+    left: 37%;
+}

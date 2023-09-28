@@ -1,0 +1,23 @@
+.accordianWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 153px 100px 153px;
+    
+    justify-content: space-between;
+    background-color: var(--color-primary);
+}
+
+.accordianHeader {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.profileCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+    padding-top: 100px;
+    gap: 20px;
+}

@@ -11,6 +11,27 @@
     border: 1.4px solid gray;
 }
 
+.profileWrapper {
+    width: 359px;
+    height: 368px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex-wrap: wrap;
+    background-color: var(--color-black);
+    border-radius: 14px;
+    border: 1.4px solid gray;
+}
+
+.profileImage {
+    width: 105px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cardImage  {
     width: 101px;
     height: 101px;
@@ -20,4 +41,11 @@
     align-items: center;
     justify-content: center;
    
+}
+
+.cardTeamWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }

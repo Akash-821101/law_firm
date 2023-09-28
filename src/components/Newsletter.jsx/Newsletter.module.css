@@ -1,0 +1,43 @@
+.newsLetterWrapper {
+    display: flex;
+   width: 1245px;
+    background-color: #47474780;
+    padding: 60px 60px 60px 60px;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    
+}
+
+.newsletterField {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 50px;
+    width: 686px;
+    
+    
+}
+
+.newsletterField input {
+    height: 53px;
+    outline: none;
+    background-color: #E4E4E4;
+    border-radius: 8px 0px 0px 8px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+
+}
+
+.newsletterField button {
+    background-color: #E3B748;
+    border-radius: 0px 8px 8px 0px;
+    padding: 16px;
+    color: black;
+    height: 53px;
+}

@@ -32,3 +32,14 @@ left: 450px;
 
 
 }
+
+.teamMember {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary);
+    gap: 30px;
+    justify-content: center;
+    padding: 100px 153px 100px 153px;
+    align-items: center;
+    
+}
